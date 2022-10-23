@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #84E1AD;
+    
+}
+
+header {
+    background: linear-gradient(to top, #1A5C38, #3CD680);
+    padding: 15px;
+    margin: -10px;
+    height: 150px;
+}
+
+main {
+    
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+h1 {
+    font: 2em Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+p#phead {
+    font-family: 'News Cycle', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+nav {    
+    padding: 30px;
+    margin: -5px -5px -5px -18px;
+}
+
+nav > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2, h3 {
+    color: #1C5E3A;
+    font-family: idroid;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #BAE1CB, white);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    padding: 20px;
+    margin: 10px;
+    background: #1A5C38;
+    text-align: center;
+}
+
+p#p {
+    color: white;
+    background-color: #2FA866;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: #1A5C38;
+    height: 25px;
+    
+}

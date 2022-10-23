@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(179, 241, 150);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #338000;
+}
+
+h1#main {
+    text-align: center;
+    background-color: #194000;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #194000;
+}
+
+.basic {
+    color: rgb(6, 87, 87);
+    text-decoration: underline;
+}
+
+.intermediary {
+    color: darkred;
+}
+
+.advanced {
+    color: darkmagenta;
+}
+
+.destaque {
+    background-color: rgba(184, 184, 75, 0.603);    
+    border-radius: 5px;
+}

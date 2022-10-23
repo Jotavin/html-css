@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, re, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1.3em;
+            font-weight: lighter;            
+            /*lighter normal bold bolder
+            ou usar numero de 100 a 900, podendo a fonte não possuir todos esses valores*/
+            
+        }
+
+        h1 {
+            /* ShortHand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            text-decoration: underline;*/
+            font: italic normal 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 1.5em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quasi et dolorum non similique amet corrupti modi odit perferendis? Ipsa quas dolorum est velit ad illum modi non voluptatum, distinctio fuga consequuntur debitis saepe eveniet, cumque, natus quibusdam repellat vitae?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus debitis distinctio animi cumque velit perferendis, officia, eius odio quidem magnam excepturi labore explicabo iure sapiente tempora ea assumenda similique veniam.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci! Veniam laborum soluta officia perferendis accusamus fugit? Debitis cupiditate reprehenderit laboriosam voluptates assumenda adipisci nemo in nobis inventore. Placeat, dolores.</p>
+</body>
+</html>

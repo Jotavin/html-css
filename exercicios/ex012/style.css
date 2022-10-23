@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #E8A20C;
+    --cor1: #DB5F00;
+    --cor2: #F24E0C;
+    --cor3: #E82B0C;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 120px;
+    color: #000000;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2));
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+main {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    
+}
