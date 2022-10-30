@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botao 5</title>
+    <style>
+        body {
+            background-color: rgb(32, 32, 32);
+        }
+
+        #botao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #btn {
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 25px;
+            font-size: 30px;
+            font-weight: bold;
+            box-shadow: inset 0 0 20px black;        
+            transition: all 0.5s ease-in-out 0s;
+        }
+
+        #btn:hover {
+            background-color: transparent;
+            color: deeppink;
+            border: 2px solid deeppink;
+            transform: scale(1.5);
+
+        }
+    </style>
+</head>
+<body>
+    <div id="botao">
+        <button id="btn">
+            Botão
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botao 4</title>
+    <style>
+        @charset "UTF-8";
+
+        :root {
+            --cor1: rgb(29, 40, 52);
+            --cor2: rgb(0, 255, 191);
+        }
+
+        #botao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--cor1);
+        }
+
+        #btn {
+            width: 200px;
+            height: 50px;
+            border: none;
+            font-size: 30px;
+            font-weight: bold;
+            border-radius: 1000px;
+            box-shadow: inset 0 0 20px black;
+            transition: all .5s ease-in-out 0s;
+        }
+
+        #btn:hover {
+            background-color: transparent;
+            color: var(--cor2);
+            border: 2px solid var(--cor2);
+            transform: scale(1.5)rotate(360deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="botao">
+        <button id="btn">
+            Botão
+        </button>
+    </div>
+</body>
+</html>
