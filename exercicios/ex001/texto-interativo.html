@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Animado</title>
+    <style>
+        body {
+            padding: 10vh;
+            background-color: #000;
+        }
+
+        h1 {
+            -webkit-text-stroke: .5vh #fff;
+            font-size: 30vw;
+            font-weight: bold;
+            text-align: center;
+            background-image: url('images/banner.png');
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: text 10s ease alternate infinite;
+
+        }
+
+        @keyframes text {
+            from {
+                background-position: 0% 50%;
+            }
+            to {
+                background-position: 100% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Like!</h1>
+    </div>
+</body>
+</html>
